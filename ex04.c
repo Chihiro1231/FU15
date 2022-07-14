@@ -5,6 +5,13 @@
 int main(){
   int i, n, cnt1=0, cnt2=0;
 
+  // 名前を聞くパート
+  char str[8];
+  printf("Who are You?\n> ");
+  scanf("%s", str);
+  printf("Hello, %s!\n", str);
+  
+  // コイントスのパート
   srand((unsigned int)time(NULL));
   
   printf("Tossing a coin...\n");
