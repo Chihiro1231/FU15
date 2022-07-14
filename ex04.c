@@ -30,6 +30,7 @@ int main(){
   
   printf("Heads: %d, Tails: %d\n", cnt1, cnt2);
   
+  // 勝者を表示するパート
   if(cnt1>cnt2) {
     printf("%s won!\n", str);
   } else {
